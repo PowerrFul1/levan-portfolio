@@ -104,7 +104,6 @@ nav {
     cursor: pointer;
     position: absolute;
     right: 15px;
-    top: 10px;
     color: #F8F4E3;
     opacity: 0;
     pointer-events: none;
