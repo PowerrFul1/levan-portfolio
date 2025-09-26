@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website — Levan Marganishvili</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Nav Section -->
+    <nav aria-label="Main Navigation">
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Levan Marganishvili</span>
+            </div>
+            <div class="links">
+                <a class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" href="">Home</a>
+                <a class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" href="#about">About</a>
+                <a class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"
+                    href="#skills">Skills</a>
+                <a class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"
+                    href="#services">Services</a>
+                <a class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"
+                    href="#contact">Contact</a>
+            </div>
+
+            <button class="hamburg" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="dropdown" id="mobileDropdown" aria-hidden="true">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <button class="cancel" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="images/main-portfolio-image.jpeg" alt="Levan profile image" loading="lazy" />
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                    Hey I'm <span>Levan</span>
+                </h1>
+
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a <span class="typewriter-text">Junior Front-End Web Developer</span>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    As a junior front-end developer, I'm passionate about creating responsive, user-friendly websites.
+                    Skilled in HTML, CSS, and JavaScript, I enjoy learning new frameworks and improving my design and
+                    coding abilities.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://github.com/PowerrFul1" target="_blank" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="1300" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/levan-marganishvili-b6a02a271/" data-aos="fade-up"
+                        target="_blank" data-aos-duration="1500" data-aos-delay="1400" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/levan_marghanishvili?igsh=YjJvZGlubDR1cjB6&utm_source=qr"
+                        data-aos="fade-up" target="_blank" data-aos-duration="1500" data-aos-delay="1500"
+                        aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="1700">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>About Me</span>
+            </div>
+
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="images/about-me-picture.jpeg" alt="Levan portrait" loading="lazy" />
+                </div>
+
+                <div class="right">
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Web
+                        Development Is My Passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                        I am a 27-year-old from Tbilisi, Georgia, with a passion for music across almost all genres.
+                        Over the past year, I have been dedicated to improving my skills in front-end web development. I
+                        currently work at Impel, starting as a QA agent and, for the past two years, as a configuration
+                        specialist. I am now seeking opportunities that allow me to expand my knowledge, gain hands-on
+                        experience, and further grow as a web developer.
+                    </p>
+
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Skills</span></div>
+
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Skills
+                        Reflect Our Knowledge</div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">I am a junior front-end
+                        developer with strong skills in <strong>HTML, CSS, and Bootstrap</strong>, and a growing
+                        proficiency in <strong>JavaScript</strong>. <br> I have basic experience with <strong>React
+                            and Angular</strong> and am continuously improving my
+                        knowledge of modern front-end frameworks to build responsive and user-friendly web applications.
+                    </p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">1</div>
+                        <div class="exp">Year Of<br />Experience</div>
+                    </div>
+                </div>
+
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML
+                        </div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Bootstrap
+                        </div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <div class="topic">Front-End Web Development</div>
+                    <ul class="service-list">
+                        <li>Responsive Web Design</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Cross-Browser Compatibility</li>
+                    </ul>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon"><i class="fas fa-cogs"></i></div>
+                    <div class="topic">Configuration Specialist</div>
+                    <ul class="service-list">
+                        <li>Software Setup</li>
+                        <li>System Optimization</li>
+                        <li>Custom Configurations</li>
+                    </ul>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon"><i class="fas fa-bug"></i></div>
+                    <div class="topic">Quality Insurance Specialist</div>
+                    <ul class="service-list">
+                        <li>Manual Testing</li>
+                        <li>Bug Tracking & Reporting</li>
+                        <li>UI/UX Validation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-down" data-aos-duration="1500"><span>Contact Me</span></div>
+            <div class="contact-links" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <a href="mailto:levani.marganishvili.1@gmail.com" target="_blank" aria-label="Gmail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>levani.marganishvili.1@gmail.com</span>
+                </a>
+            </div>
+            <div class="text">
+                <div class="topic" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200">Have Any Project
+                    ?
+                </div>
+                <div class="contact-links" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <a href="https://github.com/PowerrFul1/my-first-web-project" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub Project</span>
+                    </a>
+                </div>
+                <p data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Could you please share your thoughts on the email address I provided?</p>
+                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                    <button>Thank you !</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">PowerrFul1</a> &#169; 2025 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
