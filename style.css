@@ -155,6 +155,8 @@ nav {
     transform: translateY(0);
 }
 
+
+
 /* sections */
 section {
     width: 100%;
@@ -615,8 +617,7 @@ footer .text span a:hover {
 @media (max-width: 968px) {
     nav .logo {
         position: absolute;
-        top: 15px;
-        left: 15px;
+        align-items: center;
         font-size: 1.5rem;
     }
 
@@ -710,7 +711,7 @@ footer .text span a:hover {
         color: #D4A373;
     }
 
-    .about-details .right p{
+    .about-details .right p {
         justify-content: center;
         padding-top: 14px;
     }
