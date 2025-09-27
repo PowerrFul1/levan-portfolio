@@ -488,6 +488,9 @@ section .topic {
     background-color: #D4A373;
     transform: translateY(-5px);
     color: #000;
+    .service-list li::before{
+        color: #1A1A1A !important;
+    }
 }
 
 .services .boxes .box .icon {
